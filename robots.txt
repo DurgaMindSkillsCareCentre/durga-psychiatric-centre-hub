@@ -1,0 +1,17 @@
+# ==========================================================================
+# ROBOTS CONTROL ARCHITECTURE FOR DR. DURGA HEALTHCARE & TRAINING HUB
+# ==========================================================================
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /durga.jpg
+
+# Protect dynamic script folders, tracking configs, or staging fragments if any exist
+Disallow: /plugins/
+Disallow: /config/
+Disallow: /cache/
+Disallow: /tmp/
+
+# Explicit XML Sitemap Location Notification to Accelerate Console Discovery
+Sitemap: https://durga-mindskillscare.pages.dev/sitemap.xml
